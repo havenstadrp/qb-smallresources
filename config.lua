@@ -16,18 +16,98 @@ ConsumeablesEat = {
     ["tosti"] = math.random(40, 50),
     ["twerks_candy"] = math.random(35, 54),
     ["snikkel_candy"] = math.random(40, 50),
+    -- UwU
+    ["uwupancake"] = math.random(25, 34),
+    ["uwubudhabowl"] = math.random(50, 60), 
+    ["uwusushi"] = math.random(45, 50), 
+    ["uwucupcake"] = math.random(40, 45), 
+    ["uwuvanillasandy"] = math.random(50, 65),
+    ["uwuchocsandy"] = math.random(50, 65),
+    -- Custom Havenstad
+    ["tiramisu"] = math.random(35, 54),
+    ["chocomousse"] = math.random(25, 34),
+    ["pasta_pesto"] = math.random(50, 65),
+    ["pasta_carbonara"] = math.random(50, 65),
+    ["pasta_bolognese"] = math.random(50, 65),
+    ["pizza_mozzerella"] = math.random(50, 65),
+    ["pizza_vegi"] = math.random(50, 65),
+    ["pizza_salami"] = math.random(50, 65),
+    ["pizza_hawai"] = math.random(50, 65),
+    ["icecream"] = math.random(20, 34),
+    ["popcorn"] = math.random(13, 27),
+    ["chips"] = math.random(13, 27),
+    ["pie"] = math.random(20, 34),
+    ["cookie"] = math.random(25, 34),
+    ["muffin"] = math.random(25, 34),
+    ["donut"] = math.random(25, 34),
+    ["pancake"] = math.random(30, 45),
+    ["chickenbucket"] = math.random(50, 65),
+    ["nuggets"] = math.random(40, 50),
+    ["fries"] = math.random(40, 50),
+    ["panini_mozzarella"] = math.random(50, 65),
+    ["panini_chicken_peper"] = math.random(50, 65),
+    ["panini_boulet"] = math.random(50, 60),
+    ["taco"] = math.random(40, 56),
+    ["hamburger"] = math.random(40, 56),
+    ["hotdog"] = math.random(40, 56),
+    ["eggsbacon"] = math.random(30, 40),
+    ["cake"] = math.random(20, 34),
 }
 
 ConsumeablesDrink = {
     ["water_bottle"] = math.random(35, 54),
     ["kurkakola"] = math.random(35, 54),
     ["coffee"] = math.random(40, 50),
+    -- UwU
+    ["uwububbleteablueberry"] = math.random(55, 60), 
+    ["uwububbletearose"] = math.random(55, 60), 
+    ["uwububbleteamint"] = math.random(55, 60), 
+    ["uwumisosoup"] = math.random(80, 90),
+    -- Custom Havenstad
+    ["redbull"] = math.random(80, 90),
+    ["sprite"] = math.random(35, 54),
+    ["milkshake"] = math.random(40, 50),
+    ["milk"] = math.random(35, 54),
+    ["fanta"] = math.random(35, 54),
+    ["green_tea"] = math.random(35, 54),
+    ["frappuccino"] = math.random(40, 54),
+    ["espresso"] = math.random(40, 54),
+    ["mint_tea"] = math.random(35, 54),
+    ["cappuccino"] = math.random(40, 54),
+    ["earl_grey_tea"] = math.random(35, 54),
+
 }
 
 ConsumeablesAlcohol = {
     ["whiskey"] = math.random(20, 30),
     ["beer"] = math.random(30, 40),
     ["vodka"] = math.random(20, 40),
+    ["grape"] = math.random(20, 40),
+    ["wine"] = math.random(20, 40),
+    ["grapejuice"] = math.random(20, 40),
+    ["stella"] = math.random(20, 40),
+    ["duvel"] = math.random(20, 40),
+    ["corona"] = math.random(20, 40),
+    ["desperados"] = math.random(20, 40),
+    ["vodka_redbull"] = math.random(20, 40),
+    ["jupiler"] = math.random(20, 40),
+    ["maes"] = math.random(20, 40),
+    ["carapils"] = math.random(20, 40),
+    ["bacardi_cola"] = math.random(20, 40),
+    ["martini"] = math.random(20, 40),
+    ["gold_strike"] = math.random(20, 40),
+    ["boswandeling"] = math.random(20, 40),
+    ["jenever"] = math.random(20, 40),
+    ["rode_wijn"] = math.random(20, 40),
+    ["witte_wijn"] = math.random(20, 40),
+    ["cava"] = math.random(20, 40),
+    ["mojito"] = math.random(20, 40),
+
+
+
+
+
+
 }
 
 Config.BlacklistedScenarios = {
