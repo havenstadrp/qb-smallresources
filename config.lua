@@ -103,11 +103,6 @@ ConsumeablesAlcohol = {
     ["cava"] = math.random(20, 40),
     ["mojito"] = math.random(20, 40),
 
-
-
-
-
-
 }
 
 Config.BlacklistedScenarios = {
