@@ -52,6 +52,13 @@ ConsumeablesEat = {
     ["hotdog"] = math.random(40, 56),
     ["eggsbacon"] = math.random(30, 40),
     ["cake"] = math.random(20, 34),
+    -- Burgershot
+    ["burger-bleeder"] = math.random(35, 54),
+    ["burger-moneyshot"] = math.random(35, 54),
+    ["burger-torpedo"] = math.random(35, 54),
+    ["burger-heartstopper"] = math.random(35, 54),
+    ["burger-meatfree"] = math.random(35, 54),
+    ["burger-fries"] = math.random(35, 54),
 }
 
 ConsumeablesDrink = {
@@ -75,6 +82,9 @@ ConsumeablesDrink = {
     ["mint_tea"] = math.random(35, 54),
     ["cappuccino"] = math.random(40, 54),
     ["earl_grey_tea"] = math.random(35, 54),
+    -- Burgershot
+    ["burger-softdrink"] = math.random(40, 50),
+    ["burger-mshake"] = math.random(40, 50),
 
 }
 
