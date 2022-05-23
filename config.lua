@@ -74,6 +74,17 @@ ConsumeablesEat = {
     ["cooked_sausage"] = math.random(35, 50),
     ["cooked_pork"] = math.random(35, 50),
     ["cooked_ham"] = math.random(35, 50),
+    --- 710-pizza 
+    ["pepcalzone"] = math.random(30, 50),
+    ["dzchickenwings"] = math.random(30, 50),
+    ["chcalzone"] = math.random(20, 50),
+    ["slcheesepizza"] = math.random(30, 40),
+    ["slpeppizza"] = math.random(20, 40),
+    ["slhawapizza"] = math.random(35, 40),
+    ["slmexpizza"] = math.random(35, 54),
+    ["slchickenpizza"] = math.random(30, 50),
+    ["slbbqpizza"] = math.random(35, 54),
+    ["slveggiepizza"] = math.random(35, 54),
 }
 
 ConsumeablesDrink = {
@@ -105,6 +116,47 @@ ConsumeablesDrink = {
     ["grapejuice"] = math.random(25, 45),
     ["hotsauce"] = math.random(10, 15),
 
+    -- 710-pizza
+    ["fcocacola"] = math.random(30, 50),
+    ["fsprite"] = math.random(30, 50),
+    ["fnestea"] = math.random(20, 50),
+
+    --- 710-timmies
+    ["wedges"] = math.random(15, 25),
+    ["timbits"] = math.random(15, 25),
+    ["timschocsprinkledonut"] = math.random(10, 25),
+    ["timsbostoncreamdonut"] = math.random(10, 25),
+    ["timsstrawberrydonut"] = math.random(10, 25),
+    ["timsjellydonut"] = math.random(10, 25),
+    ["timsglazeddonut"] = math.random(10, 25),
+    ["timschocdipdonut"] = math.random(10, 25),
+    ["choccroissant"] = math.random(15, 40),
+    ["cheesecroissant"] = math.random(15, 40),
+    ["tbcsandwich"] = math.random(35, 54),
+    ["extritalian"] = math.random(35, 54),
+    ["hamnswiss"] = math.random(40, 50),
+    ["chrispchickenc"] = math.random(35, 54),
+    ["grilledcheese"] = math.random(35, 40),
+    ["steakgrcheese"] = math.random(40, 50),
+    ["beltbagel"] = math.random(40, 50),
+    ["fruitsmoothie"] = math.random(35, 40),
+    ["frozenlemon"] = math.random(35, 54),
+    ["icedcap"] = math.random(30, 50),
+    ["icedcoffee"] = math.random(35, 54),
+    ["expressonice"] = math.random(35, 54),
+    ["icedlatte"] = math.random(30, 50),
+    ["vbicedlatte"] = math.random(30, 50),
+    ["icedclatte"] = math.random(20, 50),
+    ["pepsi"] = math.random(30, 40),
+    ["timscoffee"] = math.random(20, 40),
+    ["steeptea"] = math.random(35, 40),
+    ["frenchvanilla"] = math.random(35, 54),
+    ["hotchocolate"] = math.random(30, 50),
+    ["cafemocha"] = math.random(35, 54),
+    ["latte"] = math.random(35, 54),
+    ["dreamlatte"] = math.random(30, 50),
+    ["cappuccino"] = math.random(30, 50),
+    ["bagtea"] = math.random(20, 50),
 }
 
 ConsumeablesAlcohol = {
@@ -259,4 +311,14 @@ Config.CarWash = { -- carwash
         ["label"] = "Hands Free Carwash",
         ["coords"] = vector3(-699.62, -932.7, 19.01),
     }
+}
+
+-- Showing ID
+Config.ShowPlayerID = true -- Shows player ID on screen.
+Config.PlayerID = { -- only works when "Config.ShowPlayerId = true"
+    LocationX = 1.442,
+    LocationY = 1.245,
+    Width = 1.0,
+    Height = 0.9,
+    Scale = 0.40,
 }

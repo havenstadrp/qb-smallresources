@@ -848,6 +848,20 @@ RegisterNetEvent('consumables:client:Desertdonut', function(itemName)
     end)
 end)
 
+-- 710-pizza
+RegisterNetEvent("consumables:client:openPizzaBox")
+AddEventHandler("consumables:client:openPizzaBox", function(itemName)
+    TriggerEvent('animations:client:EmoteCommandStart', {"UNCUFF"})
+    QBCore.Functions.Progressbar("drink_something", "Opening Pizza box..", 5000, false, true, {
+        disableMovement = false,
+        disableCarMovement = false,
+		disableMouse = false,
+		disableCombat = true,
+    }, {}, {}, {}, function() -- Done
+        TriggerEvent("inventory:client:ItemBox", QBCore.Shared.Items[itemName], "remove")
+        TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+    end)
+end)
 
 --Threads
 
