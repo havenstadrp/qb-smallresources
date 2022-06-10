@@ -741,19 +741,19 @@ end)
 ----------- / Firework
 
 QBCore.Functions.CreateUseableItem("firework1", function(source, item)
-    TriggerClientEvent("fireworks:client:UseFirework", src, item.name, "proj_indep_firework")
+    TriggerClientEvent("fireworks:client:UseFirework", source, item.name, "proj_indep_firework")
 end)
 
 QBCore.Functions.CreateUseableItem("firework2", function(source, item)
-    TriggerClientEvent("fireworks:client:UseFirework", src, item.name, "proj_indep_firework_v2")
+    TriggerClientEvent("fireworks:client:UseFirework", source, item.name, "proj_indep_firework_v2")
 end)
 
 QBCore.Functions.CreateUseableItem("firework3", function(source, item)
-    TriggerClientEvent("fireworks:client:UseFirework", src, item.name, "proj_xmas_firework")
+    TriggerClientEvent("fireworks:client:UseFirework", source, item.name, "proj_xmas_firework")
 end)
 
 QBCore.Functions.CreateUseableItem("firework4", function(source, item)
-    TriggerClientEvent("fireworks:client:UseFirework", src, item.name, "scr_indep_fireworks")
+    TriggerClientEvent("fireworks:client:UseFirework", source, item.name, "scr_indep_fireworks")
 end)
 
 ----------- / Lockpicking
