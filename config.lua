@@ -18,9 +18,9 @@ ConsumeablesEat = {
     ["candy_snickers"] = math.random(35, 54),
     ["croque"] = math.random(40, 50),
     ["tiramisu"] = math.random(25, 34),
-    ["chocomousse"] = math.random(50, 60), 
-    ["pasta_pesto"] = math.random(45, 50), 
-    ["pasta_carbonara"] = math.random(40, 45), 
+    ["chocomousse"] = math.random(50, 60),
+    ["pasta_pesto"] = math.random(45, 50),
+    ["pasta_carbonara"] = math.random(40, 45),
     ["pasta_bolognese"] = math.random(50, 65),
     ["pizza_mozzerella"] = math.random(50, 65),
     ["pizza_vegie"] = math.random(35, 54),
@@ -82,8 +82,25 @@ ConsumeablesEat = {
     ["sandwich_italian"] = math.random(35, 54),
     ["sandwich_tbc"] = math.random(35, 54),
     ["timbits"] = math.random(35, 54),
-    
 
+    -- simplefarming
+    ["apple"] = math.random(10, 20),
+    ["beef"] = math.random(35, 50),
+    ["slicedpie"] = math.random(10, 20),
+    ["corncob"] = math.random(25, 40),
+    ["canofcorn"] = math.random(35, 50),
+    ["grapes"] = math.random(10, 20),
+    ["greenpepper"] = math.random(10, 20),
+    ["chillypepper"] = math.random(10, 20),
+    ["tomato"] = math.random(10, 20),
+    ["tomatopaste"] = math.random(25, 40),
+    ["cooked_bacon"] = math.random(35, 50),
+    ["cooked_sausage"] = math.random(35, 50),
+    ["cooked_pork"] = math.random(35, 50),
+    ["cooked_ham"] = math.random(35, 50),
+}
+
+ConsumeablesDrink = {
     -- drinks
     ["apple_juice"] = math.random(35, 54),
     ["water_bottle"] = math.random(40, 50),
@@ -92,7 +109,7 @@ ConsumeablesEat = {
     ["coffee"] = math.random(25, 34),
     ["coffee_iced"] = math.random(50, 60),
     ["coffee_mocha"] = math.random(45, 50),
-    ["drpepper"] = math.random(40, 45), 
+    ["drpepper"] = math.random(40, 45),
     ["espresso"] = math.random(50, 65),
     ["fanta"] = math.random(50, 65),
     ["espresso_ice"] = math.random(35, 54),
@@ -117,23 +134,6 @@ ConsumeablesEat = {
     ["tea_green"] = math.random(40, 50),
     ["tea_mint"] = math.random(50, 65),
     ["tea_steep"] = math.random(50, 65),
-
-
-    -- simplefarming
-    ["apple"] = math.random(10, 20),
-    ["beef"] = math.random(35, 50),
-    ["slicedpie"] = math.random(10, 20),
-    ["corncob"] = math.random(25, 40),
-    ["canofcorn"] = math.random(35, 50),
-    ["grapes"] = math.random(10, 20),
-    ["greenpepper"] = math.random(10, 20),
-    ["chillypepper"] = math.random(10, 20),
-    ["tomato"] = math.random(10, 20),
-    ["tomatopaste"] = math.random(25, 40),
-    ["cooked_bacon"] = math.random(35, 50),
-    ["cooked_sausage"] = math.random(35, 50),
-    ["cooked_pork"] = math.random(35, 50),
-    ["cooked_ham"] = math.random(35, 50),
 }
 
 ConsumeablesAlcohol = {
