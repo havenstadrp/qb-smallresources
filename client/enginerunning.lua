@@ -1,4 +1,3 @@
-
 --- Config ---
 RestrictEmer = false -- Only allow this feature for emergency vehicles.
 keepDoorOpen = true -- Keep the door open when getting out.
@@ -8,8 +7,8 @@ local notify = false
 
 function ShowNotification(text)
     SetNotificationTextEntry("STRING")
-	AddTextComponentString(text)
-	DrawNotification(false, false)
+    AddTextComponentString(text)
+    DrawNotification(false, false)
 end
 
 Citizen.CreateThread(function()
@@ -52,5 +51,5 @@ Citizen.CreateThread(function()
                 end
             end
         end
-	end
+    end
 end)

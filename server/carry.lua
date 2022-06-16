@@ -27,7 +27,7 @@ AddEventHandler("CarryPeople:stop", function(targetSrc)
 	end
 end)
 
-AddEventHandler('playerDropped', function(reason)
+AddEventHandler('playerDropped', function()
 	local source = source
 
 	if carrying[source] then
