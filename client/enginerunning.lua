@@ -5,11 +5,11 @@ keepDoorOpen = true -- Keep the door open when getting out.
 --- Code ---
 local notify = false
 
-function ShowNotification(text)
-    SetNotificationTextEntry("STRING")
-    AddTextComponentString(text)
-    DrawNotification(false, false)
-end
+-- function ShowNotification(text)
+--     SetNotificationTextEntry("STRING")
+--     AddTextComponentString(text)
+--     DrawNotification(false, false)
+-- end
 
 Citizen.CreateThread(function()
     while true do
