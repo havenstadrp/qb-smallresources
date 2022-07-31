@@ -8,7 +8,9 @@ local objects = {
     {x = 1038.22, y = 55.68, z = 69.06, model = "vw_prop_casino_blckjack_01"},
     {x = 1025.9, y = 61.5, z = 69.87, model = "vw_prop_casino_blckjack_01b"},
     {x = 1030.79, y = 40.68, z = 69.87, model = "vw_prop_casino_blckjack_01b"},
-    {x = 1025.8, y = 47.74, z = 68.86, model = "vw_prop_casino_roulette_01"},
+
+    {x = 1024.63, y = 52.76, z = 68.86, model = "vw_prop_casino_roulette_01b"},
+    {x = 1025.8, y = 47.74, z = 68.86, model = "vw_prop_casino_roulette_01b"},
 }
 
 CreateThread(function()
