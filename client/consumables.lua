@@ -308,7 +308,7 @@ RegisterNetEvent('consumables:client:Coffee', function(itemName)
 end)
 
 RegisterNetEvent('consumables:client:Cocacola', function(itemName)
-    TriggerEvent('animations:client:EmoteCommandStart', {"soda"})
+    TriggerEvent('animations:client:EmoteCommandStart', {"drink"})
     QBCore.Functions.Progressbar("drink_something", "Drinking cola", 5000, false, true, {
         disableMovement = false,
         disableCarMovement = false,

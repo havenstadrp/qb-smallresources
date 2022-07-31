@@ -553,12 +553,19 @@ QBCore.Functions.CreateUseableItem("grapejuice", function(source, item)
 end)
 
 QBCore.Functions.CreateUseableItem("cocacola", function(source, item)
-    TriggerClientEvent("consumables:client:Drink", source, item.name)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("consumables:client:Cocacola", source, item.name)
+    end
 end)
 
 QBCore.Functions.CreateUseableItem("coffee", function(source, item)
-    TriggerClientEvent("consumables:client:Coffee", source, item.name)
+    local Player = QBCore.Functions.GetPlayer(source)
+	if Player.Functions.RemoveItem(item.name, 1, item.slot) then
+        TriggerClientEvent("consumables:client:Coffee", source, item.name)
+    end
 end)
+
 
 QBCore.Functions.CreateUseableItem("coffee_iced", function(source, item)
     TriggerClientEvent("consumables:client:Coffee", source, item.name)
